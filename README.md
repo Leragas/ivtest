@@ -13,16 +13,17 @@ condition
 -check duplicates in database before upload
 
 
-<img width="326" alt="Screenshot 2023-06-09 175848" src="https://github.com/Leragas/ivtest/assets/70728167/35017ce6-4423-4a12-887d-855628e68846">
+<img width="481" alt="Screenshot 2023-06-09 175827" src="https://github.com/Leragas/ivtest/assets/70728167/93102acf-029f-4848-bf3d-42808a46a519">
 
 
 
 
-<img width="398" alt="image" src="https://github.com/Leragas/ivtest/assets/70728167/c2525649-e748-49a2-b896-38947423f9a9">
+
+<img width="326" alt="Screenshot 2023-06-09 175848" src="https://github.com/Leragas/ivtest/assets/70728167/63fa6757-460e-473c-a8fc-899b36798948">
 
 challenge submit
 ## Testing Site
 
 https://interviewtest.shabplt.com
-<img width="953" alt="image" src="https://github.com/Leragas/ivtest/assets/70728167/0adfb463-ff18-4466-9e3c-89daba3b2b4d">
+<img width="793" alt="Screenshot 2023-06-09 175905" src="https://github.com/Leragas/ivtest/assets/70728167/d356ab30-4c6a-48e6-93b4-b4a55fccadf6">
 
