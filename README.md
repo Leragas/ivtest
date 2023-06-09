@@ -13,8 +13,9 @@ condition
 -check duplicates in database before upload
 
 
+<img width="326" alt="Screenshot 2023-06-09 175848" src="https://github.com/Leragas/ivtest/assets/70728167/35017ce6-4423-4a12-887d-855628e68846">
 
-![ScreenShot](/Screenshot 2023-06-09 175827.png)
+
 
 
 <img width="398" alt="image" src="https://github.com/Leragas/ivtest/assets/70728167/c2525649-e748-49a2-b896-38947423f9a9">
