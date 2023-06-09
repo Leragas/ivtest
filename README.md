@@ -13,8 +13,8 @@ condition
 -check duplicates in database before upload
 
 
-[<img width="575" alt="image" src="https://github.com/Leragas/ivtest/assets/70728167/083d48d3-e285-4937-9dea-22c1ac076411">](https://github.com/Leragas/ivtest/blob/main/Screenshot%202023-06-09%20175827.png)
 
+![ScreenShot](Screenshot 2023-06-09 175827.png)
 
 
 <img width="398" alt="image" src="https://github.com/Leragas/ivtest/assets/70728167/c2525649-e748-49a2-b896-38947423f9a9">
