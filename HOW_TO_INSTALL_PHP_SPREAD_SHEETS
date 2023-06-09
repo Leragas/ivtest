@@ -1,0 +1,4 @@
+composer require phpoffice/phpspreadsheet --ignore-platform-req=ext-gd  --with-all-dependencies
+
+
+https://stackoverflow.com/questions/71255993/cant-install-the-phpspreadsheet
