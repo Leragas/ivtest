@@ -1,4 +1,15 @@
 ## laravel 9 PHP 8 
+
+edit .env file
+-database etc...yanowamean?
+
+
+composer install
+composer require phpoffice/phpspreadsheet --ignore-platform-req=ext-gd  --with-all-dependencies
+https://stackoverflow.com/questions/71255993/cant-install-the-phpspreadsheet
+php artisan migrate:fresh
+
+
 Laravel
 stack - lamp
 
