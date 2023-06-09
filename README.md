@@ -14,7 +14,7 @@ condition
 
 
 
-![ScreenShot](Screenshot 2023-06-09 175827.png)
+![ScreenShot](/Screenshot 2023-06-09 175827.png)
 
 
 <img width="398" alt="image" src="https://github.com/Leragas/ivtest/assets/70728167/c2525649-e748-49a2-b896-38947423f9a9">
