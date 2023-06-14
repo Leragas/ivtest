@@ -14,14 +14,14 @@ Laravel
 stack - lamp
 
 table
--show data from database
+-show data from database / eloquent
 
 functions
--import/excel
+-import/excel / phpspreadsheet
 -export/excel
 
 condition
--check duplicates in database before upload
+-check duplicates in database before upload 
 
 
 <img width="481" alt="Screenshot 2023-06-09 175827" src="https://github.com/Leragas/ivtest/assets/70728167/93102acf-029f-4848-bf3d-42808a46a519">
