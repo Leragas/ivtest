@@ -21,7 +21,11 @@ return new class extends Migration
             $table->string('parent_number')->default('N/A');
             $table->timestamps();
         });
+
+    
     }
+
+
 
     /**
      * Reverse the migrations.

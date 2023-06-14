@@ -40,7 +40,7 @@ Route::get('ex', function()
     #dd($users);
     #toarray
 // Specify the column names to exclude
-    $excludedColumns = ['password', 'remember_token', 'created_at', 'updated_at','email_verified_at'];
+    $excludedColumns = ['created_at', 'updated_at'];
 
     // Convert the data to an array cause Spread sheets need this format
     $myarray = [];
@@ -63,15 +63,12 @@ Route::get('ex', function()
 
         
 }
-
-
-
-    // dd($myarray);
+ // dd($myarray);
     #save to excel
-
+//this part generate the excel file
     $spreadsheet = new Spreadsheet();
     $activeWorksheet = $spreadsheet->getActiveSheet();
-    $activeWorksheet->fromArray($myarray, NULL, 'A1'); # save to excel at startign at A1
+    $activeWorksheet->fromArray($myarray, NULL, 'A1'); # save to excel starting at A1 
     $writer = new Xlsx($spreadsheet);
     header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
     header('Content-Disposition: attachment;filename="Pendaftaran.xlsx"');

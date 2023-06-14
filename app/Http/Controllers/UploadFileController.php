@@ -40,12 +40,6 @@ class UploadFileController extends Controller {
 
       
     #load all and delete all
-      
-     foreach(TestData::all() as $one){
-        
-       
-
-      }
         
 
       
@@ -67,21 +61,22 @@ class UploadFileController extends Controller {
           if (!$firstRowSkipped) {
                 $firstRowSkipped = true;
                 continue;
-                }
+          }
+                //skiping the first row
 
 
-          
-if  (
-    
-    (TestData::
-    where('name', $row[0])->
-    where('level', $row[1])->
-    where('class', $row[2])->
-    where('parent_number', $row[3])->
-    get()->
-    count()) > 0) {
-          continue;    
-    }  
+                  
+               if  (
+                  
+                  (TestData::
+                  where('name', $row[0])->
+                  where('level', $row[1])->
+                  where('class', $row[2])->
+                  where('parent_number', $row[3])->
+                  get()->
+                  count()) > 0) {
+                        continue;    
+                  }  
 // Iterate over the retrieved records
 // Access attributes using $one->attribute_name
          $newdat = TestData::create([

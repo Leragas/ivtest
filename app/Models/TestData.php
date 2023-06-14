@@ -9,5 +9,5 @@ class TestData extends Model
 {
     use HasFactory;
     protected $guarded = ['*'];
-    protected $fillable =['name','class','level','parent_number'];
+    protected $fillable =['name','class','level','parent_number']; //fillable value in the database by user
 }
